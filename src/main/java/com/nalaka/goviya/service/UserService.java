@@ -360,5 +360,7 @@ public class UserService {
         
         return response;
     }
-
+    public Optional<User> getUserById(String userId) {
+        return repo.findById(userId);
+    }
 }

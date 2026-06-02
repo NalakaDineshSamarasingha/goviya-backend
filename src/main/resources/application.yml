@@ -16,7 +16,7 @@ server:
     context-path: /api/goviya-auth-core
 
 swagger:
-  server-url: http://localhost:8080
+  server-url: http://165.245.191.211:8080
 
 springdoc:
   swagger-ui:
