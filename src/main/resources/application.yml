@@ -4,19 +4,19 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8080
+        url: http://localhost:9187
         enabled: true
         auto-registration: true
   profiles:
     active: local
 
 server:
-  port: 8080
+  port: 9187
   servlet:
     context-path: /api/goviya-auth-core
 
 swagger:
-  server-url: http://165.245.191.211:8080
+  server-url: http://52.118.205.242:9187
 
 springdoc:
   swagger-ui:
